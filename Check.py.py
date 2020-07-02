@@ -8,6 +8,7 @@ p1=[]
 p2=[]
 layout=Tk()
 layout.title('Tic Tac Toy: Player 1')
+layout.resize(False, False)
 but1=ttk.Button(layout, text='')
 but1.grid(row=0,column=0,sticky='snew')
 but1.config(command=lambda: Buclick(1))
